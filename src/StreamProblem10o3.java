@@ -47,7 +47,5 @@ INTO
                 ));
 
         System.out.println("Resulted Map :: "+resultMap);
-
-
     }
 }
