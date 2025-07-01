@@ -33,6 +33,22 @@ public class NonRepeatingCharacterOfString {
 
           firstNonRepeating.ifPresent( ch-> System.out.println( " First non repeating character of string are ::  "+ch));
 
+          /*  Round : 2 Fist non-repeating character in string */
+
+        String input = "ibmjava";
+        char[] charArray = input.toCharArray();
+
+        for( char ch : charArray){
+            System.out.println(ch);
+        }
+
+        input.chars()
+                .mapToObj( c -> (char)c )
+                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()));
+
+
+
+
 
     }
 }
