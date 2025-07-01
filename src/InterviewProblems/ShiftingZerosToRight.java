@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class ProblemNo7 {
+public class ShiftingZerosToRight {
 
     public static void main(String[] args) {
         /*  int[] arr = {1,0,-3,0,5,-2,0,8,0,-4}

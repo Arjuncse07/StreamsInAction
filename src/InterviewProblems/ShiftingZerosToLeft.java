@@ -3,7 +3,7 @@ package InterviewProblems;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Problem2 {
+public class ShiftingZerosToLeft {
 
     public static void main(String[] args) {
 

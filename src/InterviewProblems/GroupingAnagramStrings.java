@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class ProblemNo06 {
+public class GroupingAnagramStrings {
 
     public static void main(String[] args) {
 

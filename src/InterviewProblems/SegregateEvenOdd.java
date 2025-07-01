@@ -2,7 +2,7 @@ package InterviewProblems;
 
 import java.util.Arrays;
 
-public class ProblemNo3 {
+public class SegregateEvenOdd {
   /*     int[] arr = {1,2,3,4,5,6,7,8,9}; segregate all even and odd numbers
           Excepted Output: [2,4,6,8,1,3,5,7,9]                  */
 
